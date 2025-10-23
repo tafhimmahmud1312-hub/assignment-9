@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "plantName": "Snake Plant",
+    "image": "https://i.pinimg.com/originals/93/81/4d/93814d455c9b8077cd62460e73f08665.jpg"
+  },
+  {
+    "id": 2,
+    "plantName": "Peace Lily",
+    "image": "https://i.pinimg.com/originals/93/81/4d/93814d455c9b8077cd62460e73f08665.jpg"
+  },
+  {
+    "id": 3,
+    "plantName": "Aloe Vera",
+    "image": "https://i.pinimg.com/originals/93/81/4d/93814d455c9b8077cd62460e73f08665.jpg"
+  },
+  {
+    "id": 4,
+    "plantName": "Money Plant",
+    "image": "https://i.pinimg.com/originals/93/81/4d/93814d455c9b8077cd62460e73f08665.jpg"
+  },
+  {
+    "id": 5,
+    "plantName": "Boston Fern",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.ZK2XPHXxQvQ7KFBaf-XsdQHaK8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 6,
+    "plantName": "Rubber Plant",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.ZK2XPHXxQvQ7KFBaf-XsdQHaK8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 7,
+    "plantName": "Spider Plant",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.ZK2XPHXxQvQ7KFBaf-XsdQHaK8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 8,
+    "plantName": "Fiddle Leaf Fig",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.ZK2XPHXxQvQ7KFBaf-XsdQHaK8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 9,
+    "plantName": "ZZ Plant",
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2"
+  },
+  {
+    "id": 10,
+    "plantName": "Lavender",
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2"
+  },
+  {
+    "id": 11,
+    "plantName": "English Ivy",
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2"
+  },
+  {
+    "id": 12,
+    "plantName": "Pothos",
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2"
+  },
+  {
+    "id": 13,
+    "plantName": "Monstera Deliciosa",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 14,
+    "plantName": "Orchid",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 15,
+    "plantName": "Bamboo Palm",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 16,
+    "plantName": "Dracaena Marginata",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 17,
+    "plantName": "Calathea",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 18,
+    "plantName": "Succulent Mix",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 19,
+    "plantName": "Jade Plant",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 20,
+    "plantName": "Peace Lily ‘White’",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 21,
+    "plantName": "Bird’s Nest Fern",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 22,
+    "plantName": "Philodendron",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 23,
+    "plantName": "Anthurium",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 24,
+    "plantName": "Hoya",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 25,
+    "plantName": "Chinese Evergreen",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 26,
+    "plantName": "Pilea Peperomioides",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 27,
+    "plantName": "Schefflera",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 28,
+    "plantName": "Dracaena Warneckii",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 29,
+    "plantName": "Rubber Fig",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 30,
+    "plantName": "Snake Plant ‘Laurentii’",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 31,
+    "plantName": "Peace Lily ‘Spotted’",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 32,
+    "plantName": "Ficus Lyrata",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 33,
+    "plantName": "Lavender Bush",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 34,
+    "plantName": "Succulent Terrarium",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 35,
+    "plantName": "Cactus Mix",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 36,
+    "plantName": "Monstera Adansonii",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 37,
+    "plantName": "Begonia Maculata",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 38,
+    "plantName": "Dieffenbachia",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 39,
+    "plantName": "African Violet",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  },
+  {
+    "id": 40,
+    "plantName": "Bird of Paradise",
+    "image": "https://i.pinimg.com/originals/4d/a1/a2/4da1a2a22daa0e8054f9483e6e8fb3d6.jpg"
+  }
+]
