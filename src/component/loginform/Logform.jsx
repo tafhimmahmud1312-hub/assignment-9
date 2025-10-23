@@ -1,23 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router";
+import Navbar from "../main/Navbar";
 
 const Logform = () => {
   return (
     <div>
-      <div className=" mb-4 font-bold btn w-full">
-        <NavLink className="mr-3 btn-ghost" to="/">
+      <Navbar></Navbar>
+      <div>
+        {/* <NavLink className="mr-3 btn-ghost" to="/">
           Home
         </NavLink>
-        <NavLink to="/">About</NavLink>
+        <NavLink to="/">About</NavLink> */}
       </div>
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Login now!</h1>
-          </div>
+          <div className="text-center lg:text-left"></div>
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
             <div className="card-body">
               <fieldset className="fieldset">
+                <h1 className="text-5xl font-bold mb-2">Login now!</h1>
                 <label className="label">Email</label>
                 <input type="email" className="input" placeholder="Email" />
                 <label className="label">Password</label>

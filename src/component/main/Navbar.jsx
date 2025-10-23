@@ -55,9 +55,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <NavLink to="/loginform" className="btn">
+          <NavLink to="/regi" className="btn">
             {" "}
-            Login
+            Signup
           </NavLink>
         </div>
       </div>

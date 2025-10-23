@@ -12,6 +12,7 @@ import Regi from "./component/regi/Regi.jsx";
 import Home from "./component/main/Home.jsx";
 import Singleplant from "./component/main/Singleplant.jsx";
 import MyPlant from "./component/main/MyPlant.jsx";
+import AuthProvider from "./provider/AuthProvider.jsx";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>
 );
