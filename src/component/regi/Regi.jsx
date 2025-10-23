@@ -1,15 +1,29 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaGoogle } from "react-icons/fa";
 import { NavLink } from "react-router";
 import Navbar from "../main/Navbar";
+import { AuthContex } from "../../provider/AuthProvider";
 
 const Regi = () => {
+  const { creatuser, setuser } = useContext(AuthContex);
   const handlesubmit = (e) => {
     e.preventDefault();
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
-    console.log(name, email, password);
+    console.log({ name, email, password });
+    creatuser(email, password)
+      .then((result) => {
+        // Signed up
+        const user = result.user;
+        setuser(user);
+        alert("registration successfully");
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        alert(errorCode, errorMessage);
+      });
   };
   return (
     <div>
@@ -28,6 +42,7 @@ const Regi = () => {
                     type="text"
                     className="input"
                     placeholder="Your name"
+                    required
                   />
                   <label className="label">Email</label>
                   <input
@@ -35,6 +50,7 @@ const Regi = () => {
                     type="email"
                     className="input"
                     placeholder="Email"
+                    required
                   />
                   <label className="label">Password</label>
                   <input
@@ -42,6 +58,7 @@ const Regi = () => {
                     type="password"
                     className="input"
                     placeholder="Password"
+                    required
                   />
                   <div>
                     <a className="link link-hover">Forgot password?</a>

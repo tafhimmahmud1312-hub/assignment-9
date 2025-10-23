@@ -38,8 +38,8 @@ const router = createBrowserRouter([
     Component: Logform,
   },
   {
-    path: "/regi",
-    Component: Regi,
+    path: "/logform",
+    Component: Logform,
   },
   {
     path: "/details",
