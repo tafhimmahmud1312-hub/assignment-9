@@ -6,7 +6,7 @@ const MyPlant = () => {
   const usedata = use(handleplant);
   console.log(usedata);
   return (
-    <div className="grid grid-cols-4">
+    <div className="grid grid-cols-4 gap-3">
       {usedata.map((data) => (
         <Suspense fallback={<p>loading</p>}>
           <AllPlantShow data={data} key={data.id}></AllPlantShow>

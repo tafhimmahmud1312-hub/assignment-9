@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Details = ({ data }) => {
   console.log(data);
@@ -6,9 +7,9 @@ const Details = ({ data }) => {
     <div>
       <div>
         <div>
-          <div className="card bg-base-300 w-96 h-120 mb-6 shadow-sm">
+          <div className="card bg-base-300 w-96 h-180 mb-6 shadow-sm">
             <figure>
-              <img className="w-60" src={data.image} alt="Shoes" />
+              <img className="w-60 h-90" src={data.image} alt="Shoes" />
             </figure>
             <div className="card-body ">
               <div className="flex justify-between">
@@ -37,6 +38,11 @@ const Details = ({ data }) => {
                   <p>Rating : {data.rating}</p>
                 </div>
               </div>
+              <Link to={`/single/${data.plantId}`}>
+                <button className="btn mt-3 bg-emerald-700 text-white w-full">
+                  Details
+                </button>
+              </Link>
             </div>
           </div>
         </div>

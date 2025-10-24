@@ -13,6 +13,9 @@ import Home from "./component/main/Home.jsx";
 import Singleplant from "./component/main/Singleplant.jsx";
 import MyPlant from "./component/main/MyPlant.jsx";
 import AuthProvider from "./provider/AuthProvider.jsx";
+import PlantDetails from "./component/main/PlantDetails.jsx";
+import PrivetRout from "./provider/PrivetRout.jsx";
+import LoadingDaisi from "./component/main/LoadingDaisi.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,11 +41,20 @@ const router = createBrowserRouter([
     Component: Logform,
   },
   {
-    path: "/logform",
-    Component: Logform,
+    path: "/regi",
+    Component: Regi,
   },
+
   {
-    path: "/details",
+    path: "/single/:id",
+    // Component: PlantDetails,
+    element: (
+      <PrivetRout>
+        <PlantDetails></PlantDetails>
+      </PrivetRout>
+    ),
+    loader: () => fetch("/public/allPlant.json").then((res) => res.json()),
+    hydrateFallbackElement: <LoadingDaisi></LoadingDaisi>,
   },
 ]);
 

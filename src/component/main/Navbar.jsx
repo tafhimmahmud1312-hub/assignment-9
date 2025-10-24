@@ -7,7 +7,7 @@ const Navbar = () => {
   const handlelogout = () => {
     logout()
       .then(() => {
-        alert("lo g ou t");
+        alert("sucessfully logout");
       })
       .catch((error) => {
         console.log(error);
@@ -71,7 +71,7 @@ const Navbar = () => {
               Logout
             </button>
           ) : (
-            <NavLink to="/logform" className="btn">
+            <NavLink to="/loginform" className="btn">
               {" "}
               Signup
             </NavLink>

@@ -1,10 +1,12 @@
 import React, { useContext } from "react";
-import { NavLink } from "react-router";
+import { NavLink, useLocation, useNavigate } from "react-router";
 import Navbar from "../main/Navbar";
 import { AuthContex } from "../../provider/AuthProvider";
 
 const Logform = () => {
   const { signin } = useContext(AuthContex);
+  const location = useLocation();
+  const navigate = useNavigate();
   const handlelogin = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -14,6 +16,7 @@ const Logform = () => {
       .then(() => {
         // const user = result.user;
         alert("log in succesfully");
+        navigate(`${location.state ? location.state : "/"}`);
       })
       .catch((error) => {
         const errorcode = error.code;
